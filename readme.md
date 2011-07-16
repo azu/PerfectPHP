@@ -2,6 +2,8 @@
 
 http://gihyo.jp/book/2010/978-4-7741-4437-5
 
+各Chapterのreadme.mdに章ごとの記録をつけた。
+
 #Part-1　PHP ～overview
 
 #1章　PHP概論
