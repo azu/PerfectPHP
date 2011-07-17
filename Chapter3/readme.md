@@ -221,3 +221,8 @@ PHPは配列同士の演算もある
     var_dump($a + $c);// 結合というよりは穴埋めの追記
     var_dump($c + $a);// 左側が優先なので、書き方で意味は変わる
     var_dump(array_merge($a, $c));// こっちは$cの値で上書きする
+
+##配列のキーの有無を調べる
+
+keyを見たい場合はarray_key_existsを使う
+valueをみたい場合はisset(ary[idx])を使う。
