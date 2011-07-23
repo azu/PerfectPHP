@@ -178,6 +178,7 @@ PHPには定義済みのインターフェイスもある。
 ２つの使い分けについて。
 
 - [PHPのinterfaceとabstractを正しく理解して使い分けたいぞー ::ハブろぐ](http://havelog.ayumusato.com/develop/php/e166-php-interface-abstract.html "PHPのinterfaceとabstractを正しく理解して使い分けたいぞー ::ハブろぐ")
+
 ##5.2.1　インターフェイスの定義と実装
 ##5.2.2　定義済みインターフェイス
 ##5.2.3　インターフェイスのチェック
@@ -185,8 +186,7 @@ PHPのインターフェイスは引数の型を保証してくれるわけで�
 ###タイプヒディング
 タイプヒディングで引数の型を指定する
 
-    public function bar(Iterator
-     $itr){
+    public function bar(Iterator $itr){
     }
 
 ###型演算子
